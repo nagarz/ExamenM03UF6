@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 16, 2015 1:05:43 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="dani.java.examenuf6.model.Event" table="Event" catalog="Examen" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="20" />
+        </property>
+        <property name="description" type="string">
+            <column name="description" length="100" />
+        </property>
+        <property name="price" type="java.lang.Double">
+            <column name="price" precision="7" />
+        </property>
+        <property name="ticketsAvailable" type="java.lang.Boolean">
+            <column name="ticketsAvailable" />
+        </property>
+        <property name="data" type="date">
+            <column name="data" length="10" />
+        </property>
+    </class>
+</hibernate-mapping>

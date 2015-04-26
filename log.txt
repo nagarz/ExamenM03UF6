@@ -1,0 +1,12 @@
+Apr 26, 2015 2:24:58 PM dani.java.examenuf6.controller.EventDAO getAll
+INFO: in getAll() method{}
+Apr 26, 2015 2:54:28 PM dani.java.examenuf6.controller.EventDAO getAll
+INFO: in getAll() method{}
+Apr 26, 2015 2:54:36 PM dani.java.examenuf6.controller.EventDAO update
+INFO: in update(Event) method{}
+Apr 26, 2015 2:54:42 PM dani.java.examenuf6.controller.EventDAO update
+INFO: in update(Event) method{}
+Apr 26, 2015 2:54:49 PM dani.java.examenuf6.controller.EventDAO insert
+INFO: in insert(Event) method{}
+Apr 26, 2015 3:29:29 PM dani.java.examenuf6.controller.EventDAO getAll
+INFO: in getAll() method{}
